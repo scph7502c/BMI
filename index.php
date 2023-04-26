@@ -42,8 +42,8 @@ exit("Błąd połączenia z serwerem MySQL.");
 
 
 function bmiCount(){ 
-@$waga = $_POST['waga'];
-@$wzrost = $_POST['wzrost'];
+$waga = $_POST['waga'];
+$wzrost = $_POST['wzrost'];
 $bmi = 0;
 
     if($wzrost != 0){
